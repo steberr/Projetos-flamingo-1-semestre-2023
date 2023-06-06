@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header">
+
+   <a href="#" class="logo"> <i class="fas fa-lightbulb"></i> Udemy </a>
+
+   <nav class="navbar">
+      <div id="close-navbar" class="fas fa-times"></div>
+      <a href="home.html">Home</a>
+      <a href="about.html">Sobre</a>
+      <a href="courses.html">Cursos</a>
+      <a href="contact.html">Contatos</a>
+   </nav>
+
+   <div class="icons">
+      <div id="account-btn" class="fas fa-user"></div>
+      <div id="menu-btn" class="fas fa-bars"></div>
+   </div>
+
+</header>
+
+<!-- account form section starts  -->
+
+<div class="account-form">
+
+   <div id="close-form" class="fas fa-times"></div>
+
+   <div class="buttons">
+      <span class="btn active login-btn">login</span>
+      <span class="btn register-btn">registro</span>
+   </div>
+
+   <form class="login-form active" action="">
+      <h3>Conecte-se</h3>
+      <input type="email" placeholder="Digite seu e-mail" class="box">
+      <input type="password" placeholder="Digite sua senha" class="box">
+      <div class="flex">
+         <input type="checkbox" name="" id="remember-me">
+         <label for="remember-me">Lembrar-Me</label>
+         <a href="#">Esqueceu sua senha?</a>
+      </div>
+      <input type="submit" value="login now" class="btn">
+   </form>
+
+   <form class="register-form" action="">
+      <h3>Registrar</h3>
+      <input type="email" placeholder="digite seu e-mail" class="box">
+      <input type="password" placeholder="digite sua senha" class="box">
+      <input type="password" placeholder="confirme sua senha" class="box">
+      <input type="submit" value="registrar" class="btn">
+   </form>
+
+</div>
+
+<!-- account form section ends -->
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home">
+
+   <div class="swiper home-slider">
+      
+      <div class="swiper-wrapper">
+
+         <section class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+            <div class="content">
+               <h3>os melhores cursos você encontra aqui!</h3>
+               <p>Estrutura completa, laboratórios modernos e professores capacitados. Dê um play para sua carreira de sucesso.</p>
+               <a href="#" class="btn">Iniciar</a>
+            </div>
+         </section>
+
+         <section class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+            <div class="content">
+               <h3>os melhores cursos você encontra aqui!</h3>
+               <p>Estrutura completa, laboratórios modernos e professores capacitados. Dê um play para sua carreira de sucesso.?</p>
+               <a href="#" class="btn">Iniciar</a>
+            </div>
+         </section>
+
+         <section class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+            <div class="content">
+               <h3>os melhores cursos você encontra aqui!</h3>
+               <p>Estrutura completa, laboratórios modernos e professores capacitados. Dê um play para sua carreira de sucesso.</p>
+               <a href="#" class="btn">Iniciar</a>
+            </div>
+         </section>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- subjects section starts  -->
+
+<section class="subjects">
+
+   <h1 class="heading">Nossos Cursos</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images/subject-icon-1.png" alt="">
+         <h3>Designer gráfico</h3>
+         <p>10 semestres</p>
+      </div>
+
+      <div class="box">
+         <img src="images/subject-icon-2.png" alt="">
+         <h3>matematica</h3>
+         <p>12 semestres</p>
+      </div>
+
+      <div class="box">
+         <img src="images/subject-icon-3.png" alt="">
+         <h3>Letras </h3>
+         <p>12 semestres</p>
+      </div>
+
+      <div class="box">
+         <img src="images/subject-icon-4.png" alt="">
+         <h3>Desenvolvimento</h3>
+         <p>6 semestres</p>
+      </div>
+
+      <div class="box">
+         <img src="images/subject-icon-5.png" alt="">
+         <h3>Ciência</h3>
+         <p>12 semestres</p>
+      </div>
+
+      <div class="box">
+         <img src="images/subject-icon-6.png" alt="">
+         <h3>Engenharia</h3>
+         <p>12 semestres</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- subjects section ends -->
+
+<!-- home courses slider section starts  -->
+
+<section class="home-courses">
+
+   <h1 class="heading"> Cursos Populares </h1>
+
+   <div class="swiper home-courses-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/course-1-1.png" alt="">
+               <h3>Desenvolvimento Web</h3>
+            </div>
+            <div class="content">
+               <h3>Desenvoledor Web</h3>
+               <p>Desenvolvedor web incluem, criação, integração e administração de banco de dados, construir um software server-side usando framework backend, também como trabalhar com tecnologias web server, integração API e sistemas operacionais.</p>
+               <a href="#" class="btn">Consulte</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/course-1-2.png" alt="">
+               <h3>Gestão T.I.</h3>
+            </div>
+            <div class="content">
+               <h3>Gestão T.I.</h3>
+               <p>O curso de Gestão Da Tecnologia Da Informação da Informação pode ser definido como o preparo para a administração de software, hardware, bancos de dados e também de pessoas de uma organização, com o foco na melhoria e otimização de processos e procedimentos.</p>
+               <a href="#" class="btn">Consulte</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/course-1-3.png" alt="">
+               <h3>Redes</h3>
+            </div>
+            <div class="content">
+               <h3>Redes</h3>
+               <p>O curso de Redes de Computadores prepara o profissional para elaborar, implantar e gerenciar projetos lógicos e físicos de redes de computadores locais e de longa distância, assim como a propor melhorias na estrutura .</p>
+               <a href="#" class="btn">Consulte</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/course-1-4.png" alt="">
+               <h3>Desenvolvimento Web</h3>
+            </div>
+            <div class="content">
+               <h3>Matemática</h3>
+               <p>O curso de Matemática forma profissionais capazes de usar a lógica na formulação de teorias e no teste de hipóteses, de desenvolver aplicações de cálculos na pesquisa e na ciência aplicada e de criar fórmulas e bancos de dados para interpretar e solucionar problemas.</p>
+               <a href="#" class="btn">Consulte</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/course-1-5.png" alt="">
+               <h3>Eletrônica</h3>
+            </div>
+            <div class="content">
+               <h3>Eletrônica</h3>
+               <p>O Curso Técnico de Eletrônica tem por objetivo habilitar profissionais para desenvolver circuitos eletrônicos, integrar de sistemas eletrônicos e realizar a manutenção de circuitos e sistemas eletrônicos, seguindo normas técnicas, ambientais, de qualidade, de saúde e segurança no trabalho.</p>
+               <a href="#" class="btn">Consulte</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/course-1-6.png" alt="">
+               <h3>Letras</h3>
+            </div>
+            <div class="content">
+               <h3>Letras</h3>
+               <p>O curso de Letras forma profissionais capazes de entender o funcionamento da Língua Portuguesa, de idiomas estrangeiros e de suas respectivas literaturas.</p>
+               <a href="#" class="btn">mais informações</a>
+            </div>
+         </div>
+
+      </div>
+
+   </div>
+
+</section>
+
+<!-- home courses slider section ends -->
+
+
+
+
+
+
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3> <i class="fas fa-lightbulb"></i> Udemy </h3>
+         <p>A Udemy é a união perfeita entre flexibilidade, mobilidade e economia de tempo e dinheiro para você que quer investir sua carreira.</p>
+         <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+         </div>
+      </div>
+
+      <div class="box">
+         <h3>links rápidos</h3>
+         <a href="home.html" class="link">Home</a>
+         <a href="about.html" class="link">Sobre</a>
+         <a href="courses.html" class="link">Cursos</a>
+         <a href="contact.html" class="link">Contatos</a>
+      </div>
+
+      <div class="box">
+         <h3>links úteis</h3>    
+         <a href="#" class="link">Ajuda</a>
+         <a href="#" class="link">Perguntas</a>
+         <a href="#" class="link">Comentários</a>
+         <a href="#" class="link">Politica de privacidade</a>
+         <a href="#" class="link">Termos de uso</a>
+      </div>
+
+      <div class="box">
+         <h3>Boletim de Noticias</h3>
+         <p>Inscreva-se para mais informações</p>
+         <form action="">
+            <input type="email" name="" placeholder="Digite seu e-mail" id="" class="email">
+            <input type="submit" value="Inscrever" class="btn">
+         </form>
+      </div>
+
+   </div>
+
+   <div class="credit"> criado por <span>mr. web designer</span> | todos os direitos são reservados! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+<!-- swiper js link  -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
